@@ -210,7 +210,7 @@ String NTP::get_timeNow() {
 
     if ( ((epoch % 3600) / 60) < 10 ) {
       //si han pasado menos de 10 añadimos un 0
-      timeNow = timeNow + '0';
+      timeNow = '0' + timeNow;
     }
 
 
@@ -218,7 +218,7 @@ String NTP::get_timeNow() {
     timeNow = timeNow + ":";
     if ( (epoch % 60) < 10 ) {
     
-      timeNow = timeNow + '0';
+      timeNow = '0' + timeNow;
     }
     timeNow = timeNow + epoch % 60; 
   }
