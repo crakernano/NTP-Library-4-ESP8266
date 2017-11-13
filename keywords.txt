@@ -1,0 +1,12 @@
+NTP KEYWORD1
+begin KEYWORD2
+get_unix_time() KEYWORD2
+get_hour KEYWORD2
+get_minutes KEYWORD2
+get_secons KEYWORD2
+get_timeNow KEYWORD2
+get_data KEYWORD2
+get_time_mode KEYWORD2
+
+
+
